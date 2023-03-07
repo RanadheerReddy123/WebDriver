@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ranga">
+<test name="Report">
+<classes>
+<class name="aug10.FirstTestNGClass">
+</class>
+<class name="aug11.SecondTestNGClass">
+</class>
+<class name="aug11.ThirdtestNGClass">
+</class>
+</classes>
+</test>
+</suite>
