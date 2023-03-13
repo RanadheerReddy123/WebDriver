@@ -17,7 +17,7 @@ public class MultipleWindows {
 		driver.findElement(By.linkText("Help")).click();
 		driver.findElement(By.linkText("Privacy")).click();
 		driver.findElement(By.linkText("Terms")).click();
-		//get collection of all window ids
+		//get collection of all window id's
 		Set<String> allwins = driver.getWindowHandles();
 		System.out.println(allwins);
 		for (String each : allwins) {
@@ -31,7 +31,7 @@ public class MultipleWindows {
 				driver.close();
 			}
 		}
-		//switch back to parent winow
+		//switch back to parent window
 		driver.switchTo().window(parent);
 		Thread.sleep(5000);
 		driver.findElement(By.id("identifierId")).sendKeys("pranga2010");
