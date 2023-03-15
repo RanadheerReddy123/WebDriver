@@ -21,6 +21,7 @@ public class HandlingActions {
 		ac.sendKeys(Keys.ARROW_DOWN).perform();
 		Thread.sleep(5000);
 		ac.sendKeys(Keys.ENTER).perform();
+		driver.close();
 
 
 	}
