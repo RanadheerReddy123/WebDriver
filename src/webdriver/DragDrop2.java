@@ -14,7 +14,7 @@ public class DragDrop2 {
 		driver.manage().window().maximize();
 		Thread.sleep(5000);
 		Actions ac = new Actions(driver);
-		//switch to first frmae
+		//switch to first frame
 		driver.switchTo().frame(0);
 		WebElement source = driver.findElement(By.id("draggable"));
 		WebElement dst = driver.findElement(By.id("droppable"));

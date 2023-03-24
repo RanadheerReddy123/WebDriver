@@ -15,7 +15,7 @@ public class DragDrop1 {
 		//get collection of frames
 		List<WebElement> frames = driver.findElements(By.tagName("iframe"));
 		System.out.println(frames.size());
-		//switch to first frmae
+		//switch to first frame
 		driver.switchTo().frame(0);
 		WebElement source = driver.findElement(By.id("draggable"));
 		WebElement dst = driver.findElement(By.id("droppable"));
